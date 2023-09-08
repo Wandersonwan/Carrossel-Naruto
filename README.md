@@ -35,7 +35,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 
 <img src = "images/Readme-img/imagen3.svg"> 
-<img src = "images/Readme-img/imagen2.svg">
+<img src = "images/Readme-img/imageee.svg" width="50px">
 <img src = "images/Readme-img/imagen1.svg">
 <br>
 <br>
