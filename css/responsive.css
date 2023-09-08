@@ -10,6 +10,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .informacoes .title{
         width: 60%;
@@ -24,19 +25,35 @@
 
 @media(max-width: 425px) {
     
+        .information{
+            padding-left:0;
+        }
 
     .informacoes .descricao {
-        width: 100%;
-    }
+
+      width: 100%;
+      text-justify: inter-word;
+      
+  }
+  .botoes-carrossel{
+    margin-top: 20PX;
+  }
+ 
+  .botoes-carrossel button{
+    display: flex;
+    justify-content: center;
+  }
+  
         .informacoes .title {
            width: 100%; 
         }
 
     .menu-lateral {
+        padding: 50px;
         position: static;
         min-height: auto;
         width: 100%;
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .menu-lateral ul {
